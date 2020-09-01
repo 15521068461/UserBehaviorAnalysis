@@ -27,7 +27,7 @@ public class T_data_recordDAO {
 			+       tDataRecord.getDataStatus() + ","
 			+ "'" + tDataRecord.getDataCreateAt() + "'" + ","
 			+       tDataRecord.getDataCreateUserId() + ","
-			+ "'" + tDataRecord.getDataUpdateAt() + "'" + ","
+			+       tDataRecord.getDataUpdateAt()  + ","   //有修改过
 			+       tDataRecord.getDataUpdateUserId() + ","
 			+ "'" + tDataRecord.getExtFiled() + "'"
 			+")";

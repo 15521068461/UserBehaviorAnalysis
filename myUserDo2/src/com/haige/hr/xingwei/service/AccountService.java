@@ -10,7 +10,7 @@ import com.haige.hr.xingwei.db.T_user_baseDAO;
 import com.haige.hr.xingwei.db.dto.T_user_baseDTO;
 import com.haige.hr.xingwei.service.bean.VO4Login;
 import com.haige.hr.xingwei.service.bean.VO4ShowUserInfo;
-import com.haige.hr.xingwei.web.param.UserInforParam;
+import com.haige.hr.xingwei.web.admin.param.UserInforParam;
 
 public class AccountService {
 		

@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50562
 File Encoding         : 65001
 
-Date: 2020-09-01 11:35:50
+Date: 2020-09-01 16:56:57
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -55,19 +55,19 @@ CREATE TABLE `t_data_record` (
   `DATA_UPDATE_USER_ID` bigint(20) DEFAULT NULL COMMENT '�������˱��',
   `EXT_FILED` varchar(2000) DEFAULT NULL COMMENT '��չ�ֶ�',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='����-�ɼ���¼��';
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COMMENT='����-�ɼ���¼��';
 
 -- ----------------------------
 -- Records of t_data_record
 -- ----------------------------
-INSERT INTO `t_data_record` VALUES ('1', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-07 20:23:12', null, null, null, 'null');
-INSERT INTO `t_data_record` VALUES ('2', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-08 16:30:28', null, null, null, null);
-INSERT INTO `t_data_record` VALUES ('3', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-09 17:07:23', null, null, null, null);
-INSERT INTO `t_data_record` VALUES ('4', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-09 22:10:44', null, null, null, null);
-INSERT INTO `t_data_record` VALUES ('5', '192.168.1.2', '02', '登录', '这是一个登录标签', '1', '2020-08-09 22:12:18', null, null, null, null);
-INSERT INTO `t_data_record` VALUES ('6', '192.168.1.2', '01', 'A产品浏览', '这是一个A产品浏览标签', '1', '2020-08-16 22:13:09', null, null, null, null);
-INSERT INTO `t_data_record` VALUES ('7', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-16 14:45:18', null, null, null, null);
-INSERT INTO `t_data_record` VALUES ('8', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-16 14:46:03', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('1', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-31 20:23:12', null, null, null, 'null');
+INSERT INTO `t_data_record` VALUES ('2', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-30 16:30:28', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('3', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-31 17:07:23', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('4', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-09-01 22:10:44', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('5', '192.168.1.2', '02', '登录', '这是一个登录标签', '1', '2020-09-01 22:12:18', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('6', '192.168.1.2', '01', 'A产品浏览', '这是一个A产品浏览标签', '1', '2020-08-21 22:13:09', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('7', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-08-30 14:45:18', null, null, null, null);
+INSERT INTO `t_data_record` VALUES ('8', '192.168.1.2', '01', '登录', '这是一个登录标签', '1', '2020-09-01 14:46:03', null, null, null, null);
 
 -- ----------------------------
 -- Table structure for t_sys_cache
