@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/com/haige/hr/common/config/PropertiesUtil.java=UTF-8
+encoding//src/com/haige/hr/common/db/DBUtil.java=UTF-8
+encoding//src/com/haige/hr/core/ajax/AjaxJsonUtil.java=UTF-8
+encoding//src/com/haige/hr/core/constant/CommonProperties.java=UTF-8
+encoding//src/com/haige/hr/core/db/C3P0Datasource.java=UTF-8
+encoding//src/com/haige/hr/core/filter/ExceptionFilter.java=UTF-8
+encoding//src/com/haige/hr/core/ret/RetCode.java=UTF-8
+encoding//src/com/haige/hr/core/ret/RetResponse.java=UTF-8
+encoding//src/com/haige/hr/core/ret/RetResult.java=UTF-8
+encoding//src/com/haige/hr/xingwei/db=UTF-8
+encoding//src/common.properties=UTF-8
+encoding//src/jdbc.properties=UTF-8
